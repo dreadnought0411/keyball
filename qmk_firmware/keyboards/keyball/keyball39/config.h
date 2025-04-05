@@ -79,4 +79,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef LOCKING_RESYNC_ENABLE
 
 // Usability features
-#define TAPPING_TERM 1000
+#define TAPPING_TERM 150
