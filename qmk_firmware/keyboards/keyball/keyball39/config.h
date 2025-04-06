@@ -80,4 +80,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // TAP_HOLD features
 #define TAPPING_TERM 150
-#define RETRO_TAPPING
+// #define RETRO_TAPPING
