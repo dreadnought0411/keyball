@@ -69,3 +69,30 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case KC_LGUI(KC_LNG2):
+      return true;
+    case LT(1, KC_SPC):
+      return true;
+    case LT(2, KC_LNG1):
+      return true;
+    case LSFT_T(KC_Z):
+      return true;
+    case LCTL(KC_A):
+      return true;
+    case KC_LALT(KC_C):
+      return true;
+    case KC_LGUI(KC_V):
+      return true;
+    case KC_RCTL(KC_ENT):
+      return true;
+    case KC_RSFT(KC_MINS):
+      return true;
+    case KC_RGUI(KC_M):
+      return true;
+    default:
+      return false;
+  }
+}
