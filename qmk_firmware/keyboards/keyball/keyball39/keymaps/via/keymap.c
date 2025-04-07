@@ -72,7 +72,7 @@ void oledkit_render_info_user(void) {
 
 bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
-    case KC_LGUI(KC_LNG2):
+    case LGUI(KC_LNG2):
       return true;
     case LT(1, KC_SPC):
       return true;
@@ -82,15 +82,15 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
       return true;
     case LCTL(KC_A):
       return true;
-    case KC_LALT(KC_C):
+    case LALT(KC_C):
       return true;
-    case KC_LGUI(KC_V):
+    case LGUI(KC_V):
       return true;
-    case KC_RCTL(KC_ENT):
+    case RCTL(KC_ENT):
       return true;
-    case KC_RSFT(KC_MINS):
+    case RSFT(KC_MINS):
       return true;
-    case KC_RGUI(KC_M):
+    case RGUI(KC_M):
       return true;
     default:
       return false;
