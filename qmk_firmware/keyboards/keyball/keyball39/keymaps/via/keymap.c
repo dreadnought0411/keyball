@@ -86,11 +86,11 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
       return true;
     case LGUI(KC_V):
       return true;
-    case RCTL(KC_ENT):
+    case LCTL(KC_ENT):
       return true;
-    case RSFT(KC_MINS):
+    case LSFT(KC_MINS):
       return true;
-    case RGUI(KC_M):
+    case LGUI(KC_M):
       return true;
     default:
       return false;
