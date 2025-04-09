@@ -84,7 +84,7 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
       return true;
     case LALT_T(KC_C):
       return true;
-    case RGUI_T(KC_V):
+    case CMD_T(KC_V):
       return true;
     case RCTL_T(KC_ENT):
       return true;
